@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    background-color: #262626;
+}
+
+.container {
+    background-color: #F2D541;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#displaySelectedSong {
+    font-weight: bold;
+}
+
+#containerButtons {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#containerButtons > button {
+    background: white;
+    border: 1px solid #262626;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+#containerSounds {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30%;
+}
+
+#containerSounds > button {
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color: #ffffff;
+    border: 1px solid #262626;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
